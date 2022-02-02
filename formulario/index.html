@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>DATOS</h1>
+    <form action="contacto.html" method="get">
+        <label for="nombre">Coloca tu(s) nombre(s)</label>
+        <input type="text" name="nombre" id="nombre"/>
+        <br />
+        <br />
+        <label for="apellido">Coloca tus apellidos</label>
+        <input type="text" name="apellido" id="apellido"/>
+        <br />
+        <br />
+        <label for="email">Coloca tu correo electrónico</label>
+        <input type="email" name="email" id="email"/>
+        <br />
+        <br />
+        <label for="edad">Coloca tu edad</label>
+        <input type="number" name="edad" id="edad"/>
+        <br />
+        <br />
+        <label for="identidad">Me identifico como...</label>
+        <br\>
+        <br />
+        <input type="radio" name="identidad" id="hujer"/> 
+        <label>Mujer</label>
+        <br />
+        <input type="radio" name="identidad" id="hombre"/> 
+        <label>Hombre</label>
+        <br />
+        <input type="radio" name="identidad" id="nobinaria"/>
+        <label>Persona no binaria</label>
+        <br />
+        <input type="radio" name="identidad" id="nodeseo"/>
+        <label>No deseo decirlo</label>
+        <br />
+        <br />
+        <label for="contraseña">Ingresa una contraseña</label>
+        <input type="password" name="contraseña" id="contraseña"/>
+        <br />
+        <br />
+        <label for="modulo">Selecciona tu módulo actual</label>
+        <select name="modulo">
+            <option value="value1" selected>Kata Intro a la Web</option>
+            <option value="value2">Kata JS</option>
+            <option value="value3">Kata Computer Science</option>
+            <option value="value4">Kata JS Avanzado</option>
+            <option value="value5">Kata Frontend</option>
+          </select>
+        <br/>
+        <br />
+        <label for="bio">Háblanos de ti</label>
+        <br />
+        <textarea name="bio" id="bio"></textarea>
+        <br />
+        <br/>
+        <label for="color">¿Cuál es tu color favorito?</label>
+        <input type="color" name="color" id="color"/>
+        <br/>
+        <br/>
+        <label for="acuerdo">Estoy de acuerdo en compartir estos datos con la empresa</label>
+        <input type="checkbox" name="acuerdo" id="acuerdo"/>
+        <br/>
+        <br/>
+        <label for="aprendizaje">Acepto que he aprendido más sobre inputs</label>
+        <input type="checkbox" name="aprendizaje" id="aprendizaje"/>
+        <br/>
+        <br/>
+        <button >Enviar</button>
+        <br/>
+        <br/>
+    </form>
+</body>
+</html>
