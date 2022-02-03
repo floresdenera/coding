@@ -1,0 +1,31 @@
+
+       header{
+           padding-left: 140px;
+       }
+        .barraNav{
+            background-color: #C72D82;
+            color: white;
+            text-align: right;
+            padding-right: 140px;
+        }
+        h2{
+            color: #41A4DD;
+            
+        }
+        .boton1, .boton2, .boton3  {
+           background-color: #41A4DD;
+           color: white;
+           
+        }
+        .footer1{
+            background-color: #C72D82;
+            color: white;
+            text-align: center;
+        }
+        .footer2{
+            background-color: #9C2467;
+            color: white;
+            text-align: center;
+        }
+
+  
