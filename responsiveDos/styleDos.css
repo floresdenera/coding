@@ -1,0 +1,88 @@
+/** MOBILE first **/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/** TABLET **/
+@media screen and (min-width: 401px) {
+    .uno{
+        background-color: rgb(54, 42, 165);
+        width: 45%;
+        height: 120vh;
+        margin: 10px;
+        display: inline-block;
+    } 
+    /*como colocar ambos divs en uno solo */
+    .dos{
+        background-color: rgb(54, 42, 165);
+        width: 45%;
+        height: 120vh;
+        margin: 10px;
+        display: inline-block;
+    }
+    
+    .tres {
+        background-color: rgb(238, 179, 17);
+        width: 94%;
+        height: 50vh;
+        margin: 10px;
+
+    }
+    
+}
+
+
+/**No entiendo para que es esto **/
+@media screen and (min-width: 701px)  {
+    .uno{
+        background-color: rgb(54, 42, 165);
+        width: 45%;
+        height: 120vh;
+        margin: 10px;
+        display: inline-block;
+    } 
+    /*como colocar ambos divs en uno solo */
+    .dos{
+        background-color: rgb(54, 42, 165);
+        width: 45%;
+        height: 120vh;
+        margin: 10px;
+        display: inline-block;
+    }
+    
+    .tres {
+        background-color: rgb(238, 179, 17);
+        width: 94%;
+        height: 50vh;
+        margin: 10px;
+        
+    }
+    
+}
+
+/** LAPTOP **/
+@media screen and (min-width: 1001px) {
+    .uno{
+        background-color: rgb(54, 42, 165);
+        width: 30%;
+        height: 120vh;
+        margin: 10px;
+    } 
+    /*como colocar ambos divs en uno solo */
+    .dos{
+        background-color: rgb(54, 42, 165);
+        width: 30%;
+        height: 120vh;
+        margin: 10px;
+    }
+    .tres {
+        background-color: rgb(238, 179, 17);
+        width: 30%;
+        height: 120vh;
+        margin: 10px;
+    }
+    div{
+        display: inline-block;
+    }
+}
