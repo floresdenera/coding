@@ -5,55 +5,26 @@
 }
 
 /** TABLET **/
-@media screen and (min-width: 401px) {
-    .uno{
+@media screen and (min-width: 200px) {
+    .unoUno{
         background-color: rgb(54, 42, 165);
-        width: 45%;
-        height: 120vh;
-        margin: 10px;
-        display: inline-block;
-    } 
-    /*como colocar ambos divs en uno solo */
-    .dos{
-        background-color: rgb(54, 42, 165);
-        width: 45%;
-        height: 120vh;
-        margin: 10px;
-        display: inline-block;
-    }
-    
-    .tres {
-        background-color: rgb(238, 179, 17);
-        width: 94%;
+        width: 90%;
         height: 50vh;
         margin: 10px;
 
-    }
-    
-}
-
-
-/**No entiendo para que es esto **/
-@media screen and (min-width: 701px)  {
-    .uno{
-        background-color: rgb(54, 42, 165);
-        width: 45%;
-        height: 120vh;
-        margin: 10px;
-        display: inline-block;
     } 
     /*como colocar ambos divs en uno solo */
-    .dos{
+    .dosDos{
         background-color: rgb(54, 42, 165);
-        width: 45%;
-        height: 120vh;
+        width: 90%;
+        height: 50vh;
         margin: 10px;
-        display: inline-block;
+    
     }
     
-    .tres {
+    .tresTres{
         background-color: rgb(238, 179, 17);
-        width: 94%;
+        width: 90%;
         height: 50vh;
         margin: 10px;
         
@@ -61,28 +32,56 @@
     
 }
 
+
+/**No entiendo para que es esto **/
+@media screen and (min-width: 701px)  {
+    .unoUno{
+        background-color: rgb(54, 42, 165);
+        width: 45%;
+        height: 120vh;
+        margin: 10px;
+        display: inline-block;
+    } 
+    /*como colocar ambos divs en uno solo */
+    .dosDos{
+        background-color: rgb(54, 42, 165);
+        width: 45%;
+        height: 120vh;
+        margin: 10px;
+        display: inline-block;
+    }
+    
+    .tresTres{
+        background-color: rgb(238, 179, 17);
+        width: 94%;
+        height: 50vh;
+        margin: 10px;
+        display: block;
+    }
+    
+}
+
 /** LAPTOP **/
 @media screen and (min-width: 1001px) {
-    .uno{
+    .unoUno{
         background-color: rgb(54, 42, 165);
         width: 30%;
         height: 120vh;
         margin: 10px;
     } 
     /*como colocar ambos divs en uno solo */
-    .dos{
+    .dosDos{
         background-color: rgb(54, 42, 165);
         width: 30%;
         height: 120vh;
         margin: 10px;
     }
-    .tres {
+    .tresTres{
         background-color: rgb(238, 179, 17);
         width: 30%;
         height: 120vh;
         margin: 10px;
-    }
-    div{
         display: inline-block;
     }
+    
 }
